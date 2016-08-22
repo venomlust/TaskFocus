@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <div class="col-xs-3">
+        <button type="button" name="button" class="btn font-medium">Start</button>
+        <p class="font-medium">Work!</p>
+    </div>
+    <div class="col-xs-9">
+        <div class="item">
+            <h2 class="font-medium">0</h2>
+            <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <title>Layer 1</title>
+                    <circle id="circle" class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#3fc380" fill="none" />
+                </g>
+            </svg>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <table style="width:100%">
+          <tr ng-repeat="task in tasks | limitTo:5">
+            <td>{{task.name}}</td>
+            <td>{{task.mark}}</td>
+          </tr>
+        </table>
+    </div>
+</div>

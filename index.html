@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="appModule">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TaskFocus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/home.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/schedule.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="lib/lokijs.min.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-ui-router.js"></script>
+    <script type="text/javascript" src="lib/ui-bootstrap-tpls-1.3.3.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/config/routeConfig.js"></script>
+    <script type="text/javascript" src="js/controller/indexCtrl.js"></script>
+    <script type="text/javascript" src="js/controller/homeCtrl.js"></script>
+    <script type="text/javascript" src="js/controller/scheduleCtrl.js"></script>
+    <script type="text/javascript" src="js/service/dbService.js"></script>
+  </head>
+  <body>
+      <div ui-view=""></div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+#wrapper{
+  height:100vh;
+}
+#menu{
+  height:100%;
+  width: 60px;
+  background-color: #6C7A89;
+  display: inline-block;
+  vertical-align: middle;
+}
+#content{
+  width: calc(100% - 60px);
+  height: 100%;
+}
+.menu-button{
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+.menu-button img{
+  height: 50px;
+  width: 50px;
+}
+.menu-active{
+  background-color: #56616d;
+}
+.menu-button:hover{
+  background-color: #56616d;
+  transition: 0.5s;
+}
